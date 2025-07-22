@@ -84,11 +84,11 @@ const MockTapsellPlus = {
 
 // Test zone IDs (replace with real ones in production)
 const ZONE_IDS = {
-  REWARDED_VIDEO: 'test-rewarded-video-zone',
-  INTERSTITIAL: 'test-interstitial-zone',
+  REWARDED_VIDEO: '687fdb3a2ca0a025aba69aa2',
+  INTERSTITIAL: '687fdb632ca0a025aba69aa3',
 };
 
-const APP_ID = 'test-app-id'; // Replace with real app ID
+const APP_ID = 'rnockoojinqgmhfgodsegdieplrmscdlhboqtsftncrtspaamofhifbnqrsjigbtgefcfo'; // Replace with real app ID
 
 export const [TapsellAdsProvider, useTapsellAds] = createContextHook(() => {
   const [isInitialized, setIsInitialized] = useState<boolean>(false);
