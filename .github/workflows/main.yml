@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write   # Allows reading & writing repo contents (for future release/tag steps)
+  contents: write
 
 jobs:
   build:
@@ -16,11 +16,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up JDK 11
+    - name: Set up JDK 17            # ← bump to Java 17
       uses: actions/setup-java@v3
       with:
         distribution: 'temurin'
-        java-version: 11
+        java-version: 17
 
     - name: Install Node.js
       uses: actions/setup-node@v3
