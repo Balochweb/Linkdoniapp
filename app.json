@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.whatsapp-channel-group-listing-app-prjrdja"
+      "package": "com.app.balochweb"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
